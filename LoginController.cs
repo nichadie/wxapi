@@ -29,8 +29,8 @@ namespace wx.Controllers
             string openid = "";
             if (login.code!=null&&login.code!="")
             {
-                string appid = "wx6b9e47bf8f7c5acc";
-                string appSecret = "50af7080cf939fdb5773deb7f216b645";
+                string appid = "wxid";
+                string appSecret = "secret";
 
 
                 string url = "https://api.weixin.qq.com/sns/jscode2session";//请求的url
